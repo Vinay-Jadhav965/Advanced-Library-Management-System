@@ -1,0 +1,13 @@
+{
+    "name": "library-management-system/barcode",
+    "description": "Advanced Library Management System with Barcode Integration",
+    "require": {
+        "php": ">=8.0",
+        "picqer/php-barcode-generator": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LMS\\": "src/"
+        }
+    }
+}
